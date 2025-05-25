@@ -48,7 +48,7 @@ It should contain the following:
 * Build a page that contains all the HTML elements in the image below:
 
 
-![](./Assets/html_challenge_01.png)
+![](./html_challenge_01.png)
 
 * Add a small contact us form in the end of the page that contains:
 * * Text input for: (name, email, message).
