@@ -1,91 +1,90 @@
-.ibm-plex-mono-regular {
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 400;
-    font-style: normal;
-}
-
 * {
     margin: 1%;
     padding: 0;
 }
 
 body {
-    font-family: "IBM Plex Mono", sans-serif;
-    background-color: #1e293b;
+    background-color: #212b2d;
     color: #c6cdd5;
 }
 
-header {
+.title {
     padding-left: 2vw;
-    padding-right: 2vw;
-    background-color: #334155;
-    border-radius: 5px;
+    background-color: #36555a;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 10vh; /* Fixed height */
+    background-image: url("globe.jpeg");
+    background-size: 100% 100%; /* Forces stretching */
+    border-style: ridge;
+    border-color: #c6cdd5;
+    padding-top: 4%;
+    padding-bottom: 8%;
 }
 
 nav {
+    color: white;
     display: flex;
+    background-color: #333d3f;
+}
+
+ul {
+    color: white;
+    display: grid;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-gap: 50px;
+    list-style-type: none;
+}
+
+li a {
+    width: 16vw;
+    color: white;
+
+}
+li a:hover {
+    color: #cbd5e1;
 }
 
 .content {
-    /* width: 50vw;*/
-
-    /* aligns the children items in a row direction */
     display: flex;
     margin: auto;
 }
 section {
-    width: 50%;
-    /* SET A HEIGHT */
-    border-style: ridge;
-    border-color: #c6cdd5;
-    border-radius: 5px;
+    width: 25%;
+
 }
 aside {
-    width: 50%;
-    /* SET A HEIGHT */
-    border-style: ridge;
-    border-color: #c6cdd5;
-    border-radius: 5px;
+    width: 75%;
 }
 
-.menu {
-    padding-bottom: 4vh;
-}
-
-.gallery {
-    /* width: 50vw;*/
-
-    /* aligns the children items in a row direction */
-    display: flex;
-    margin: auto;
-    border-style: ridge;
-    border-color: #c6cdd5;
-    border-radius: 5px;
+.block {
+    padding-top: 4vh;
 }
 
 .other {
+    padding-top: 2%;
     display: flex;
     margin: auto;
 }
+.other button {
+    background-color: #96a9ac;
+    padding: 2% 4%;
+}
 .subscription {
     width: 50%;
-    /* SET A HEIGHT */
-    border-style: ridge;
-    border-color: #c6cdd5;
-    border-radius: 5px;
+
 }
 .other-services {
+    /*
+    margin-left: 2%;
+    border-left: 1px solid white;
+    */
     width: 50%;
     /* SET A HEIGHT */
-    border-style: ridge;
-    border-color: #c6cdd5;
-    border-radius: 5px;
-}
 
-.contact {
-    border-style: ridge;
-    border-color: #c6cdd5;
-    border-radius: 5px;
 }
 
 footer {
