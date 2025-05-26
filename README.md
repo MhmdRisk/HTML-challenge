@@ -1,10 +1,7 @@
-
 # HTML Challenges:
-
-Fork the repository to your personal Github.
+Fork the repository to your personal GitHub.
 
 # Level 1:
-
 Create an HTML file and name it “your name HTML 1":
 This document should contain the following
 * A Header and Footer element.
@@ -16,7 +13,6 @@ This document should contain the following
 * At least one image that should contain the alt attribute.
 
 When completed push your file to GitHub.
-
 
 ---------------
 # Level 2:
