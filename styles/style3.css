@@ -1,0 +1,92 @@
+* {
+    margin: 1%;
+    padding: 0;
+}
+
+body {
+    background-color: #212b2d;
+    color: #c6cdd5;
+}
+
+.title {
+    padding-left: 2vw;
+    background-color: #36555a;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 10vh; /* Fixed height */
+    background-image: url("globe.jpeg");
+    background-size: 100% 100%; /* Forces stretching */
+    border-style: ridge;
+    border-color: #c6cdd5;
+    padding-top: 4%;
+    padding-bottom: 8%;
+}
+
+nav {
+    color: white;
+    display: flex;
+    background-color: #333d3f;
+}
+
+ul {
+    color: white;
+    display: grid;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-gap: 50px;
+    list-style-type: none;
+}
+
+li a {
+    width: 16vw;
+    color: white;
+
+}
+li a:hover {
+    color: #cbd5e1;
+}
+
+.content {
+    display: flex;
+    margin: auto;
+}
+section {
+    width: 25%;
+
+}
+aside {
+    width: 75%;
+}
+
+.block {
+    padding-top: 4vh;
+}
+
+.other {
+    padding-top: 2%;
+    display: flex;
+    margin: auto;
+}
+.other button {
+    background-color: #96a9ac;
+    padding: 2% 4%;
+}
+.subscription {
+    width: 50%;
+
+}
+.other-services {
+    /*
+    margin-left: 2%;
+    border-left: 1px solid white;
+    */
+    width: 50%;
+    /* SET A HEIGHT */
+
+}
+
+footer {
+    text-align: center;
+}
